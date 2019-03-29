@@ -1,0 +1,61 @@
+
+MAPPING DIFFERENT
+
+land_surface_condition
+	Moderate slope 		0
+	Steep slope 		1
+	Flat				2
+
+foundation_type
+	Mud mortar-Stone/Brick	0
+	Cement-Stone/Brick		1
+	Bamboo/Timber			2
+	RC						3
+	Other					4
+
+roof_type
+	Bamboo/Timber-Light roof	0
+	RCC/RB/RBC					1
+	Bamboo/Timber-Heavy roof 	2
+
+ground_floor_type
+	Mud				0
+	Brick/Strone    1
+	RC    			2
+	Timber          3
+	Other			4
+
+other_floor_type
+	TImber/Bamboo-Mud	0
+	Timber-Planck		1
+	RCC/RB/RBC			2
+	Not applicable		3
+
+position
+	Attached-1 side		0
+	Attached-2 side		1
+	Attached-3 side		2	
+	Not Attached 		3
+
+plan_configuration
+	Rectangular							0
+	L-shape								1
+	Square								2
+	T-shape								3
+	U-shape								4
+	Multi-projected						5
+	Building with Central Courtyard		6
+	E-shape								7
+	H-shape								8
+	Other 								9
+
+condition_post_eq
+	Damaged-Repaired and used					0
+	Damaged-Rubble unclear						1
+	Damaged-Rubble Clear-New building built		2
+	Damaged-Not used							3
+	Damaged-Rubble Clear 						4
+	Damaged-Used in risk						5
+	Not Damaged 								6
+	Covered by landslide						7
+
